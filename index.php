@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
+    <title> Jocelyn Tran's Tip Calculator </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+	  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+
   </head>
-  <title> Jocelyn Tran's Tip Calculator </title>
+
   <body>
     <h1> Tip Calculator </h1>
 
@@ -44,11 +50,13 @@
     <?php
     if( isset( $_POST["subtotal"]) && isset( $_POST["tip_percent"])) {
       if( $_POST["subtotal"] > 0 ) {
-
+        
+        echo "<table>";
         $tip = $_POST["tip_percent"]/100 * $_POST["subtotal"];
-        echo "Tip: $" . number_format( $tip, 2);
+        echo "<tr><td>Tip: $" . number_format( $tip, 2) . "</td></tr>";
         $total = $tip + $_POST["subtotal"];
-        echo "Total: $". number_format( $total, 2);
+        echo "<tr><td>Total: $". number_format( $total, 2) . "</td><tr>";
+        echo "</table>";
       } else {
         echo "Please enter a bill amount above $0";
       }
