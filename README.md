@@ -4,7 +4,7 @@
 
 Submitted by: **Jocelyn Tran**
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -20,25 +20,22 @@ The following **optional** features are implemented:
 * [ ] Add support for custom tip percentage
 * [ ] Add support for splitting the tip and total
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/BTcaqJD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with Peek(https://github.com/phw/peek/releases).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This was the first time I worked with PHP. I've used HTML and CSS before, so the
+hardest challege was learning how to incorporate PHP code into HTML.
 
 ## License
 
-    Copyright [2016] [Jocelyn Tran]
+    Copyright 2016 Jocelyn Tran
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
