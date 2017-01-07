@@ -46,8 +46,9 @@
       if( $_POST["subtotal"] > 0 ) {
 
         $tip = $_POST["tip_percent"]/100 * $_POST["subtotal"];
-        echo "Tip: $" . $tip;
-        echo "Total: $". ($tip + $_POST["subtotal"]);
+        echo "Tip: $" . number_format( $tip, 2);
+        $total = $tip + $_POST["subtotal"];
+        echo "Total: $". number_format( $total, 2);
       } else {
         echo "Please enter a bill amount above $0";
       }
