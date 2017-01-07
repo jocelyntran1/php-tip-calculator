@@ -13,9 +13,9 @@
       <?php
         if( isset( $_POST["subtotal"] )) {
           $bill = $_POST['subtotal'];
-          echo "<input type=\"number\" name=\"subtotal\"value=\"$bill\" required>";
+          echo "<input type=\"number\" step=\"any\" name=\"subtotal\"value=\"$bill\" required>";
         } else {
-          echo "<input type=\"number\" name=\"subtotal\" required>";
+          echo "<input type=\"number\" step=\"any\" name=\"subtotal\" required>";
         }
       ?>
 
