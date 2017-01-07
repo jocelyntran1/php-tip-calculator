@@ -4,7 +4,7 @@
 
 Submitted by: **Jocelyn Tran**
 
-Time spent: **6** hours spent in total
+Time spent: **6.25** hours spent in total
 
 ## User Stories
 
@@ -18,15 +18,14 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [ ] Add support for custom tip percentage
-* [ ] Add support for splitting the tip and total
+* [x] Add support for splitting the tip and total
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/BTcaqJD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with Peek(https://github.com/phw/peek/releases).
+<img src='http://i.imgur.com/PaiTpoS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with [Peek](https://github.com/phw/peek/releases).
 
 ## Notes
 
