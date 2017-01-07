@@ -39,9 +39,26 @@
           echo "<input type=\"radio\" name=\"tip_percent\" required value=\"$i\"/> $i%";
         }
       } 
-
+     
     ?>
+
     </p>
+
+    <p> Split:
+
+      <?php
+        if( isset( $_POST["num_people"] )) {
+          $people = $_POST['num_people'];
+          echo "<input type=\"number\" min=\"1\"
+            name=\"num_people\" value=\"$people\" required>person(s)";
+        } else {
+          echo "<input type=\"number\" min=\"1\" name=\"num_people\" value=\"1\"
+            required>person(s)";
+        }
+      ?>
+
+    </p>
+
     <input type=submit>
     </form>
 
@@ -56,7 +73,16 @@
         echo "<tr><td>Tip: $" . number_format( $tip, 2) . "</td></tr>";
         $total = $tip + $_POST["subtotal"];
         echo "<tr><td>Total: $". number_format( $total, 2) . "</td><tr>";
+
+        if( $_POST["num_people"] > 1 ) {
+          $tip_each = $tip / $_POST["num_people"];
+          echo "<tr><td>Tip Each: $" . number_format( $tip_each, 2) . "</td></tr>";
+          $total_each = $total / $_POST["num_people"];
+          echo "<tr><td>Total Each: $". number_format( $total_each, 2) . "</td><tr>";
+        }
+        
         echo "</table>";
+
       } else {
         echo "Please enter a bill amount above $0";
       }
