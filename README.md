@@ -1,20 +1,20 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *PHP Tip Calculator*
 
-**Name of your app** is a tip calculator PHP page.
+**PHP tip calculator** is a tip calculator PHP page.
 
-Submitted by: **Your Name Here**
+Submitted by: **Jocelyn Tran**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-* [ ] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
-* [ ] Tip percentage choices use a PHP loop to output three radio buttons.
-* [ ] PHP code sets reasonable default values for the form.
-* [ ] PHP code confirms the presence and correct format of submitted values.
-* [ ] Page indicates any form errors which need to be fixed.
-* [ ] Submitted form values are retained when errors or results are shown.
+* [x] User can enter a bill amount, choose a tip percentage, and submit the form to see the tip and total values.
+* [x] Tip percentage choices use a PHP loop to output three radio buttons.
+* [x] PHP code sets reasonable default values for the form.
+* [x] PHP code confirms the presence and correct format of submitted values.
+* [x] Page indicates any form errors which need to be fixed.
+* [x] Submitted form values are retained when errors or results are shown.
 
 The following **optional** features are implemented:
 * [ ] Add support for custom tip percentage
@@ -38,7 +38,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Jocelyn Tran]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
